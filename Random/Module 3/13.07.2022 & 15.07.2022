@@ -1,0 +1,30 @@
+Conditional Statements.
+
+
+*if
+elseif 
+else
+*Switch
+to help decision making based on matching values
+
+&&- and operater used to check both or multiple condition true
+
+// Switch Statement is a collection of cases and its a single value decisions can be doned
+//without "break" switch contionus to function
+//"Break" used to stop the swtich function when the cases acquired the result
+//"default:{}"is used to represent else nature
+
+###Loop Controls are used to perform repititive tasks##
+
+for loop and While loop
+for Loop:-
+syntax:-
+for(p1,p2,p3){
+
+}
+
+While loop:-
+syntax:-
+while(){
+    
+}

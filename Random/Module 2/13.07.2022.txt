@@ -1,0 +1,56 @@
+Seesion 1
+
+Variable
+
+*var
+*let
+*const
+
+var:-
+var is function scope 
+let:-
+let is Block scope
+
+
+const:-
+we cannot reasing a value to a const variable
+
+Scope:-
+A Scope means a boundary in normal sense
+Scope plays a very important role in a Programing
+
+scope of variables:-
+var only takes place in a memory only when you call the function.
+
+(optimisation)
+
+globle scope - whole module can be accessed
+
+----------------------------
+function scope - inside a function 
+Example:-
+function addTwo {
+    var c = "good"
+    console.log(c)
+}
+----------------------------
+Block scope - inside the block {}
+Example:-
+function addTwo {
+    {var c = "good"
+    let d = "too good"}
+    console.log(c)      // it shows  the string (var is a function scope)
+    console.log(d)      //it will show undefined (let is block scope)
+}
+
+addTwo()
+---------------------------
+
+str+num = str. alwayas a string
+
+
+
+
+
+
+

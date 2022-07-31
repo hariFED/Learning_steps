@@ -1,0 +1,20 @@
+1.ternary operater
+<expression>? resultIfExpressionIsTrue : resultIfExpressionIsFalse
+
+2.Array-----------> Most Important
+
+an array is a collection of things of particular type, Index.
+
+.length --> this property is used to fint the number of arrays
+.indexOf()--> this property is used to find the number or data's index number in an array`
+
+
+*{string is a datatype, and also works like an array} //  {string is collection of indinviduak letters/characters}
+
+
+3.String traversal==> reversing a string
+length-1 is the last value of the string
+
+// Modular operator %
+this is used to to give us the reminder
+

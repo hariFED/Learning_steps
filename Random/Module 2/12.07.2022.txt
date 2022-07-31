@@ -1,0 +1,99 @@
+
+Session-1
+
+JS is 
+*single threaded
+*Synchronous
+*High level Programming Language
+
+
+1.Single threaded.
+*threaded is nothing but a part of processer
+*A Programming Language which excute or send single instruction at a time that is called single threaded 
+//A Programming Language which excute or send multiple instruction at a time that is called Multi- threaded(Ex. Java, Python, c#)
+*Js can run faster than any other multi threaded Language
+
+2.Synchronous/ ASynchronous
+
+(i)Synchronous
+*It excutes the code line by line it will not jump to next statement without the excution of before statement
+Example:-
+
+Input:-
+console.log("HELLO WORLD")
+console.log("HELLO WORLD 1")
+console.log("HELLO WORLD 2")
+
+Output:-
+HELLO WORLD
+HELLO WORLD 1
+HELLO WORLD 2
+
+(ii)ASynchronous
+
+*It can excute the code when you need to excute a code it can skip the statements.
+Example:-(Using Node Js server)
+Input:-
+
+console.log("Hello World) // statement 1 
+const http = require("http");
+
+http.createServer((req, res) => {
+    //we are ending response  and returning it to client
+    res.end(" IS PERMENENT",);
+    console.log("Nothing") // statement 2
+}).listen(5882);
+
+console.log(" World") // statement 3
+
+
+Output:-
+In the above code
+
+statement 1 and 3 will be running first on node js terminal
+statement 2 will excute only when you csll the local host 5228
+// Just excute and the code and you will understand
+
+****Js is by default a Synchronous Programing Language******(but we can change them to ASynchronous)
+
+
+
+3.High level Programming / Low level Programming Languages
+
+(i)Low Level:-
+binary numbers zeors and ones - Not easy to or not understandable by Human
+
+(ii)High Level:-
+easy for human to understand - Js, Python  etc
+
+
+*Server side only understand Low Level Language that is binary digitis zeros and ones
+*Node Js is compiler and interptor for Js which converts High level Language to Low level Language
+
+Seesion 2
+
+What is a Function?
+A Block of codes to perform a task
+
+Why do we use it?
+* Reusability
+* Modularity
+*Teastability
+
+How to Use it?
+
+Function addTwoNumber(){
+    ....
+}
+
+() ---> to take input into functions
+(x,y) ---> Parameter/ Argument is the input
+{}---> defines the body of the function
+
+return - return is used to return output to caller.
+
+How to call a function?
+Starts with name of the function and store it in a variable.
+to print the results console.log the var.
+
+
